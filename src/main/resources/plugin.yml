@@ -1,0 +1,10 @@
+name: EntityFlingerTest
+version: '${project.version}'
+main: com.github.groomon.entityflingertest.EntityFlingerTest
+api-version: 1.16
+authors: [ Groomon ]
+commands:
+  fling:
+    description: Flings an entity
+    usage: /fling [height/"nice"] [acceleration drag inertia]
+
