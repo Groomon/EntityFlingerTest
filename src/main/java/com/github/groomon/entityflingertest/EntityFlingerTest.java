@@ -88,7 +88,7 @@ public final class EntityFlingerTest extends JavaPlugin implements CommandExecut
     public boolean fling(@NotNull CommandSender sender,  @NotNull String[] args) {
         if(args.length >= 1) {
             if(Objects.equals(args[0], "help")) {
-                sender.sendMessage("§dSelect entity and target location (on clicked block) by left-clicking with a slime ball. Then: \n/fling [height/\"nice\"] [acceleration drag]");
+                sender.sendMessage("§dSelect entity and target location (on clicked block) by left-clicking with a slime ball. Then right-click with slime ball or use: \n/fling [height/\"nice\"] [acceleration drag]");
                 return true;
             }
         }
